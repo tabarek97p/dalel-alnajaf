@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.codeforiraq.dalelalnajaf">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- External storage permission -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Wallpaper permission -->
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="org.codeforiraq.dalel_alnajaf.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+<action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.codeforiraq.dalel_alnajaf.ActivityHistoryNajaf" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.ActivityHolyPlacese" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.ActivityHistoricalPlaces" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.ActivityFunPlaces" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.ActivityShoppingPlaces" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.ActivityUnivercityPlaces" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.ActivityHospitalPlaces" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.ActivitySubsPlaces" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.ActivityAirportPlaces" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.ActivityFootballPlaces" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.ActivityFoodPlaces" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.ActivityAboutUs" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.Dr_najaf" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.holy_a" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.holy_b" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.holy_c" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.holy_d" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.holy_e" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.holy_f" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.holy_g" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.holy_h" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.holy_i" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.holy_j" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.holy_k" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.shopping_a" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.shopping_b" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.shopping_c" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.shopping_d" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.shopping_e" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.shopping_f" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.shopping_g" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.un_a" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.un_b" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.un_c" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.un_d" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.un_e" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.un_f" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.un_g" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.un_h" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.un_i" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.un_j" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.fun_a" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.fun_b" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.fun_c" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.fun_d" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.fun_e" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.fun_f" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.fun_g" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.fun_h" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.fun_j" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.fun_k" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.historic_a" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.historic_b" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.historic_c" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.historic_d" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.historic_e" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.historic_f" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.historic_g" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.historic_h" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.historic_i" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+
+        <activity android:name="org.codeforiraq.dalel_alnajaf.shopping_h" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.historic_j" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.historic_k" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.historic_L" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.historic_m" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.shopping_i" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.shopping_j" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.shopping_k" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.fun_L" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.fun_i" />
+        <activity android:name="org.codeforiraq.dalel_alnajaf.un_k" />
+    </application>
+
+</manifest>
